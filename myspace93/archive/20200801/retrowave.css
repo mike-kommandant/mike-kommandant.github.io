@@ -1,0 +1,2194 @@
+/*!
+City sprite: 
+  https://pixabay.com/vectors/buildings-160061/
+  https://pixabay.com/vectors/city-157473/
+  https://pixabay.com/vectors/life-4226267/
+  https://pixabay.com/illustrations/city-1117433/
+Car: https://pixabay.com/vectors/ford-mustang-146580/
+*/
+.blogTitle:before, #userWall > tbody > tr:before, .boxInfo:before, .short tr:before, .blogTitle:after, #userWall > tbody > tr:after, .boxInfo:after, .short tr:after {
+  content: "";
+  width: 100%;
+  display: block;
+}
+.blogTitle:after, #userWall > tbody > tr:after, .boxInfo:after, .short tr:after {
+  clear: both;
+}
+
+/*! reset.css v2.0-modified | License: none (public domain) | meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code,
+img, q, s, small, strike, u, b,
+ol, ul, li, form,
+table, caption, tbody, tfoot, thead, tr, th, td,
+audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+video {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none;
+}
+
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: 0;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  image-rendering: auto;
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0;
+}
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA s.tylesheet.
+ */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` s.tyle inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` s.tyle inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to s.tyle clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor s.tyle between image-type
+ *    `input` and others.
+ */
+button,
+html input[type=button],
+input[type=submit] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-moz-selection {
+  background: #d452ea;
+  color: #f8f8f2;
+  text-shadow: none;
+}
+
+::selection {
+  background: #d452ea;
+  color: #f8f8f2;
+  text-shadow: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+textarea {
+  display: block;
+  resize: vertical;
+}
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* _icons.scss */
+/*!
+Fontawesome icons v4.7.0 | SIL OFL 1.1 | fontawesome.com/v4.7.0/
+Mister Pixel 16 font | velvetyne.fr/fonts/mr-pixel/
+SVG encode function by Kevin Weber | CC BY-SA 4.0 | codepen.io/kevinweber/pen/dXWoRw
+*/
+#header #hUp a, #header .logo, .boxButton:before {
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' shape-rendering='geometricPrecision' width='226' height='102' viewBox='0 0 2660 1201'%3E%3Cdefs%3E%3Cpath id='bell' d='M276 245c0 7-6 12-12 12h-45c0 34-50 34-50 0h-44c-7 0-13-5-13-12 24-21 32-51 32-82 0-22 18-40 42-44-6-14 18-19 18-4l-1 4c23 4 42 22 42 44 0 31 7 61 31 82z'/%3E%3Cpath id='mail' d='M1412 170v78c0 9-7 16-15 16h-145c-9 0-16-7-16-16v-78c6 6 63 45 68 49 19 13 32 6 50-7 5-4 51-34 58-42zm0-29c0 11-8 20-16 27-12 8-59 42-67 44-11 4-21-6-30-12-14-10-49-32-58-44-11-14-4-31 11-31h145c8 0 15 7 15 16z'/%3E%3C/defs%3E%3Cuse xlink:href='%23bell' fill='%23E8E'/%3E%3Cuse xlink:href='%23bell' fill='%23FFC107' x='375'/%3E%3Cuse xlink:href='%23bell' fill='%238BC34A' x='750'/%3E%3Cuse xlink:href='%23mail' fill='%23FFF'/%3E%3Cpath fill='%23FFF' d='M1756 194c6 0 11 5 11 11v66c0 7-5 12-11 12h-110c-7 0-11-5-11-12v-66c0-9 8-11 14-11 0-30-4-53 15-73 33-33 88-9 88 36 0 11-22 11-22 0 0-38-59-38-59 0v37h85z'/%3E%3Cpath fill='%23FFF' d='M2104 178c-28 28-76 8-76-31 0-40 48-59 76-32 17 18 17 45 0 63zm79 27l43 1v28l-43 1-1 43h-28l-1-43-43-1v-28l43-1 1-43h28l1 43zm-85 26c0 20 26 15 44 15v27c-5 4-11 6-19 6h-101c-38 0-33-43-25-67 8-26 31-33 39-27 41 33 72-2 78-2 10 0 18 4 24 11-41 0-40-2-40 37z'/%3E%3Cpath fill='%23FFF' d='M2447 165c20-21-9-48-28-28-33 33-40 42-27 55s29 7 55-27zm95 60l-12 12-13-12-10 10c9 9 26 23 26 30 0 8-12 18-20 10l-70-71c-50 38-99-6-67-57 31-50 97-47 97 2 0 14-4 26-13 39l37 37 10-10-12-14 11-11 36 35z'/%3E%3Cuse xlink:href='%23mail' fill='%2303A9F4' x='-1127' y='375'/%3E%3Cpath fill='%238BC34A' d='M629 577c13 20 19 76-12 76-76 0-135 19-111-62 15-49 42-13 65-13 25 0 39-29 58-1zm-29-76c8 8 12 17 12 29 0 11-4 21-12 29s-18 12-29 12c-12 0-21-4-29-12s-12-18-12-29c0-12 4-21 12-29 8-9 17-13 29-13 11 0 21 4 29 13z'/%3E%3Cpath fill='%23FFC107' d='M960 624c0-26 5-22-22-22-5 0-3 11-3 22 0 6 10 4 22 4l3-4zm0-37c0-5 3-45 1-47-3-2-24-2-27 0-2 2 1 42 1 47s23 2 24 2l1-2zm-1-91l75 138c5 9-2 19-11 19H872c-9 0-16-10-11-19l75-138c5-9 18-9 23 0z'/%3E%3Cpath fill='%23B71C1C' d='M1383 571c0-12-4-22-10-32l-81 81c40 26 91-3 91-49zm-108 32l81-81c-52-35-115 27-81 81zm125-64a83 83 0 01-108 108c-83-35-57-159 32-159 34 0 63 20 76 51z'/%3E%3Cpath fill='%23FFF' d='M318 1024h-24v-23h12v-12h47v12h12v35h-12v12h12v47h-12v11h-47v-11h-12v-24h24v24h23v-47h-23v-12h23v-35h-23v23zm-94 24h11v-12h12v-35h-23v47zm11 58h-23v-11h23v-12h12v-35h-12v11h-23v-11h-12v-47h12v-12h47v12h12v82h-12v12h-24v11z'/%3E%3Cpath fill='%23FFF' d='M118 930c-25 0-47 18-47 35v71h70v23h47v-70h12v-12h71v12h23v-12h59a61 61 0 00-59-35c-19 0-39 6-52 18-9-18-26-30-48-30-15 0-30 6-40 17-8-15-20-17-36-17z'/%3E%3Ccircle fill='%23FFF' cx='294' cy='874' r='54'/%3E%3Ccircle fill='%23FFF' cx='194' cy='883' r='35'/%3E%3Ccircle fill='%23FFF' cx='118' cy='889' r='29'/%3E%3C/svg%3E") 0 0 no-repeat;
+}
+
+/* end _icons.scss */
+button,
+input[type=submit] {
+  font-family: Consolas, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", "Courier New", monospace;
+  font-size: 16px;
+  margin: 12px 0;
+  padding: 6px 16px;
+  border: 0;
+  text-align: center;
+  background: #d452ea;
+  color: black;
+  height: 36px;
+  line-height: 24px;
+}
+
+button:hover,
+input[type=submit]:hover,
+button:focus,
+input[type=submit]:focus {
+  background: #df7ff0;
+}
+
+button:active,
+input[type=submit]:active {
+  background: #c925e4;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #180A2C;
+  color: #f8f8f2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* _typography.scss */
+body {
+  font-family: Consolas, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", "Courier New", monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p, .blog p {
+  margin: 0 0 24px;
+}
+
+a {
+  color: #ee88ff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ee88ff;
+  text-decoration: none;
+}
+
+a b, a div {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  width: auto;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  line-height: 48px;
+  padding: 12px 0;
+}
+
+h4, h5, h6 {
+  padding: 12px 0;
+}
+
+h1 {
+  font-size: 31.2px;
+}
+
+h2 {
+  font-size: 25.76px;
+}
+
+h3 {
+  font-size: 23.36px;
+}
+
+h4 {
+  font-size: 21.28px;
+}
+
+h5 {
+  font-size: 19.36px;
+}
+
+h6 {
+  font-size: 17.6px;
+}
+
+hr {
+  border: 1px solid;
+  border-width: 1px 0 0;
+  padding: 0 0 23px;
+  margin: 24px 0 0;
+  opacity: 0.5;
+}
+
+ul {
+  padding-left: 32px;
+}
+
+ol {
+  padding-left: 40px;
+}
+
+ul, ol {
+  margin: 0 0 24px;
+}
+ul ul, ul ol, ol ul, ol ol {
+  padding-left: 16px;
+  margin-bottom: 0;
+}
+ul p:last-child, ol p:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  margin-bottom: 24px;
+  overflow-wrap: normal;
+  overflow: auto;
+}
+
+table thead,
+table tbody {
+  width: 100%;
+}
+
+td, th {
+  padding: 12px 15px;
+  border-right: 1px solid;
+  vertical-align: top;
+}
+td:last-child, th:last-child {
+  padding-right: 16px;
+  border-right: 0;
+}
+
+td {
+  padding-top: 11px;
+  border-top: 1px solid;
+}
+td:last-child {
+  border-right: 0;
+}
+
+code {
+  padding: 0px 8px;
+  vertical-align: bottom;
+  color: #CCC;
+  background-color: #191919;
+  border-radius: 4px;
+  font-family: "Consolas", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", "Courier New", monospace;
+}
+
+pre {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+pre code {
+  display: block;
+  color: #CECECE;
+  white-space: pre-wrap;
+  border-radius: 0;
+  padding: 11px 7px;
+  background-color: #1F1F1F;
+  border: 1px solid #292929;
+  margin: 0 0 24px;
+}
+
+iframe {
+  display: block;
+  height: 336px;
+}
+
+iframe + br {
+  display: none;
+}
+
+/* end _typography.scss */
+/* _short.scss */
+.blogCard #age,
+.blogCard #gender,
+.blogCard #country,
+.blogCard #country + div,
+.shortRight #online + div {
+  font-size: 100% !important;
+}
+
+#online,
+#online + div {
+  margin-top: 0 !important;
+}
+
+.short,
+.short tbody,
+.short tr,
+.short td,
+.short td + td {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.short,
+.blogCard {
+  position: relative;
+  overflow: visible;
+}
+
+.short .avatar,
+.blogCard .avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 192px;
+  height: 192px;
+  object-fit: cover;
+}
+
+/* edit photo */
+.short td:first-child {
+  position: relative;
+}
+
+.short .avatar + div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.shortRight br {
+  display: none;
+}
+
+/* Set padding for all elements in "short" block */
+.shortRight > div,
+.blogCard .avatar + div,
+.blogCard #gender,
+.blogCard #gender + div,
+.blogCard #online,
+.blogCard #country,
+.blogCard #country + div {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Motto */
+.shortRight > div:first-child,
+.blogCard .avatar + div {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Last login */
+.shortRight #online + div,
+.blogCard #country + div {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.shortRight #lastLogin:before {
+  content: " ";
+}
+
+#online {
+  background: none;
+  color: #4CAF50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 48px;
+  line-height: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#online img {
+  display: none;
+}
+#online:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: middle;
+}
+#online:after {
+  content: " Online now!";
+  color: inherit;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0 0 8px;
+}
+
+.short #online:after {
+  display: none;
+}
+@media screen and (min-width: 360px) {
+  .short #online:after {
+    display: inline-block;
+  }
+}
+
+.blogCard #online {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.blogCard #online:after {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .short td:first-child {
+    float: left;
+    width: auto;
+  }
+
+  .short .avatar,
+.blogCard .avatar {
+    width: 216px;
+    max-width: 216px;
+    height: 216px;
+  }
+
+  .short td + td {
+    margin-left: 216px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .short td:first-child {
+    float: none;
+  }
+
+  .short td + td {
+    margin-left: 0;
+  }
+
+  .short .avatar,
+.blogCard .avatar {
+    width: 272px;
+    max-width: 100%;
+    height: 264px;
+  }
+
+  #online {
+    left: auto;
+    right: 0;
+  }
+}
+/* end _short.scss */
+/* _contact.scss */
+.boxInfo .boxHead {
+  padding: 12px 16px;
+  background: none;
+}
+
+.boxInfo a {
+  color: inherit;
+  padding: 0;
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.boxInfo a:hover,
+.boxInfo a:focus {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#sMsg,
+#add,
+#report,
+#block {
+  background-image: none;
+}
+
+.boxButton {
+  color: inherit;
+  display: block;
+  position: relative;
+  padding: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.boxButton:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.boxInfo > a[href*="send."] {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+#sMsg:before {
+  background-position: 0px -32px;
+}
+
+.boxInfo > a[href*="invitation."] {
+  -ms-grid-column: 3;
+  grid-column: 2;
+}
+
+#add:before {
+  background-position: -32px -32px;
+}
+
+.boxInfo > a[href*="report."] {
+  -ms-grid-column: 5;
+  grid-column: 3;
+}
+
+#report:before {
+  background-position: -64px -32px;
+}
+
+.boxInfo > a[href*="blokc."] {
+  -ms-grid-column: 7;
+  grid-column: 4;
+}
+
+#block:before {
+  background-position: -96px -32px;
+}
+
+.boxInfo {
+  /* grid layout will be used in larger screens*/
+  /* on small sceens buttons will be shown in two columns */
+  display: block;
+  -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
+  -ms-grid-rows: 48px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0 0;
+}
+
+.boxInfo {
+  -ms-grid-rows: 1fr;
+}
+
+.boxInfo .boxHead {
+  display: none;
+}
+
+.boxInfo a {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.boxButton {
+  height: 72px;
+  line-height: 1;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.boxButton:before {
+  display: block;
+  height: 32px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 360px) {
+  .boxInfo {
+    display: -ms-grid;
+    display: grid;
+  }
+
+  .boxInfo a {
+    width: 100%;
+    float: none;
+  }
+}
+/* end _contact.scss */
+/* _url.scss */
+.url div:first-child {
+  padding: 12px 16px;
+}
+
+.url div + div {
+  padding: 12px 16px;
+}
+
+.url a {
+  color: inherit !important;
+  overflow-wrap: anywhere;
+}
+
+/* end _url.scss */
+/* _player.scss */
+.player:after,
+.songName b:after {
+  background-image: url("https://i.imgur.com/Wjxiizq.png/cover.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.player {
+  --controls-filter: invert(1);
+  --time-text-color: #FFF;
+  position: relative;
+  color: #f8f8f2;
+}
+
+.songName {
+  padding: 12px 16px;
+  font-size: 100%;
+}
+.songName a {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.songName b {
+  display: block;
+}
+.songName img {
+  display: block;
+  width: 16px !important;
+  height: 16px !important;
+  padding: 0 !important;
+  filter: invert(1);
+}
+
+.songTitle {
+  font-size: 12px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player audio {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 48px;
+  filter: none;
+}
+
+/* edit mp3 button */
+.player + div {
+  height: 24px;
+  margin: 0 auto 24px;
+}
+
+.player + div button {
+  margin: 0;
+  height: 24px;
+  min-height: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: top;
+}
+
+@media screen and (min-width: 768px) {
+  .player {
+    background: #000 !important;
+    overflow: hidden;
+  }
+
+  .player:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(4px);
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  .songName {
+    color: #EEE;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+
+  .player audio {
+    position: relative;
+    z-index: 10;
+  }
+
+  .songName b {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .songName b:after {
+    content: "";
+    background-color: #333;
+    width: 156px;
+    height: 156px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .songName a {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 156px;
+    height: 156px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 12px auto 0;
+    color: #FFF;
+    display: block;
+    z-index: 20;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+  }
+
+  .songName a:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+
+  .songName img {
+    filter: invert(1);
+    float: none !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin: 55px auto 0;
+  }
+
+  .songName a:after {
+    content: "Download";
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    margin-top: 8px;
+  }
+
+  .songTitle {
+    color: #FFF;
+    font-weight: bold;
+    height: 24px;
+    margin-top: 12px;
+  }
+}
+/* IE11 doesnt support filter property */
+@media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .player:after {
+    opacity: 0.2;
+  }
+
+  .songName img {
+    box-sizing: content-box;
+    background: #FFF;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+  }
+}
+/* chromium 74+ only. older browser has different player design */
+/* chromium media controls: https://chromium.googlesource.com/chromium/blink/+/refs/heads/master/Source/core/css/mediaControls.css */
+@supports (text-underline-position: left) {
+  audio::-webkit-media-controls-enclosure {
+    background: transparent;
+  }
+
+  audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-timeline {
+    filter: var(--controls-filter);
+  }
+
+  audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: var(--time-text-color);
+    font-size: 10px;
+  }
+}
+/* end _player.scss */
+/* _all_blogs.scss */
+.blogCard .boxInfo + div b {
+  display: block;
+  padding: 12px 16px;
+  background: none;
+}
+
+.blogCard .boxInfo + div ul {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+}
+
+/* end _all_blogs.scss */
+/* _extended.scss */
+.extended {
+  border: 0;
+  margin-top: 0;
+  padding: 0 16px;
+}
+
+/* end _extended.scss */
+/* _blurbs_blogs.scss */
+.blurbs .blogs {
+  padding: 0 0 12px;
+}
+
+.blurbs .blogs div {
+  margin: 0;
+}
+
+.blurbs .blogs div:first-child {
+  display: block;
+  padding: 12px 16px;
+}
+
+.blurbs .blogs div + div {
+  display: block;
+  padding: 0 16px;
+}
+
+/* end _blurbs_blogs.scss */
+/* _blurbs.scss */
+.blurbs > h4 {
+  padding: 0 16px;
+  color: #d452ea;
+}
+
+.blurbs > h4 + div {
+  padding: 0 16px 24px;
+}
+
+.blurbs > h4 + div p:last-child {
+  margin-bottom: 0;
+}
+
+/* end _blurbs.scss */
+/* _fwiends.scss */
+.fwiendCounter {
+  margin: 0;
+  padding: 0 16px;
+}
+
+.fwiendCount {
+  color: #d452ea;
+}
+
+#viewFriends {
+  margin: 0;
+  padding: 12px 16px;
+}
+
+#top {
+  padding: 24px 16px 24px;
+  display: block;
+  -ms-grid-columns: 1fr 8px 1fr 8px 1fr 8px 1fr;
+  -ms-grid-rows: 192px 24px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px 8px;
+}
+
+#top a {
+  display: inline-block;
+  margin-bottom: 24px;
+  width: 100%;
+  height: 168px;
+  position: relative;
+}
+#top a:nth-child(4n+1) {
+  -ms-grid-column: 1;
+}
+#top a:nth-child(4n+2) {
+  -ms-grid-column: 3;
+}
+#top a:nth-child(4n+3) {
+  -ms-grid-column: 5;
+}
+#top a:nth-child(4n) {
+  -ms-grid-column: 7;
+}
+#top a:nth-child(n+5) {
+  -ms-grid-row: 3;
+}
+
+.fwiendFace {
+  display: block;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.fwiendFace b {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fwiendFace img {
+  width: 100%;
+  max-width: 144px;
+  height: 144px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 360px) {
+  #top a {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #top {
+    display: block;
+  }
+
+  #top a {
+    width: 50%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .fwiends {
+    position: relative;
+  }
+
+  #top {
+    display: -ms-grid;
+    display: grid;
+  }
+
+  #top a {
+    width: 100%;
+    max-width: 192px;
+    height: 192px;
+    margin: 0;
+  }
+
+  .fwiendFace img {
+    max-width: 100%;
+    height: 168px;
+  }
+
+  #viewFriends {
+    background: none;
+    position: absolute;
+    top: 36px;
+    right: 0;
+    font-size: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #viewFriends a {
+    font-size: 16px;
+  }
+  #viewFriends a:before {
+    content: "View ";
+  }
+}
+/* end _fwiends.scss */
+/* _comments_form.scss */
+#form {
+  background: none;
+}
+
+#form .boxHead b:after {
+  content: ":";
+}
+
+/* 'Please login to leave a comment' */
+.comments > div:not([id]):not([class]):first-child {
+  background: #0e1417;
+  padding: 24px 16px;
+  margin-bottom: 24px !important;
+}
+
+#commentInput {
+  background: #FFF;
+  color: #000;
+  border: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 16px;
+  margin-top: 0;
+  width: 100%;
+  height: 96px;
+  min-height: 96px;
+}
+
+#form input[type=submit] {
+  height: 48px;
+  text-transform: uppercase;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* end _comments_form.scss */
+/* _comments.scss */
+#userWall,
+#userWall > tbody,
+#userWall > tbody > tr,
+#userWall .tableLeft,
+#userWall .tableRight {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  width: auto;
+  background: none;
+}
+
+#userWall {
+  word-wrap: normal;
+  padding: 12px 0 0;
+  padding-right: 2px;
+  overflow: initial;
+}
+
+#userWall > tbody > tr {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 39px;
+}
+
+/* Comment author */
+.tableLeft {
+  display: block;
+  float: left;
+  overflow: visible;
+  position: relative;
+  z-index: 10;
+  width: 64px !important;
+}
+
+.tableLeft > a:hover {
+  text-decoration: none;
+}
+
+/* username */
+.tableLeft > a > div {
+  width: 200px;
+  min-width: 200px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 0 0 8px;
+  position: relative;
+  left: 80px;
+}
+
+.tableLeft img {
+  max-width: 100% !important;
+  max-height: 144px;
+  margin-top: -36px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 2px 4px 0 #d452ea;
+  background: #FFF;
+  vertical-align: top;
+  width: 64px;
+}
+
+/* Comment content */
+#userWall .tableRight {
+  display: block;
+  padding: 0 0 24px;
+  position: relative;
+  margin-left: 80px;
+  max-width: 100%;
+}
+
+.tableRight > div {
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+/* Set background and margins for every element of comment */
+.tableRight > div > * {
+  background: #222;
+  padding: 9px 8px;
+  margin: 0 0 6px 0;
+  width: auto;
+  max-width: 100%;
+  float: left;
+  display: block;
+  clear: both;
+  white-space: normal;
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.6);
+}
+
+.tableRight > div > ul {
+  padding-left: 32px;
+}
+
+.tableRight > div > ol {
+  padding-left: 40px;
+}
+
+.tableRight pre {
+  margin: 0 0 6px 0;
+  white-space: pre-wrap;
+}
+
+.tableRight pre code {
+  margin: -9px -8px;
+  padding: 9px 8px;
+  border: none;
+}
+
+.tableRight table {
+  overflow-wrap: anywhere;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tableRight hr {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  opacity: 1;
+}
+
+/* Add extra line to the top of first comment element, to combine it with username  */
+.tableRight > div > *:first-child {
+  padding-top: 36px;
+  min-width: 100%;
+  min-width: 200px;
+  border-top-left-radius: 0;
+  position: relative;
+  z-index: 5;
+}
+
+/* Arrow */
+.tableRight > div:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: -12px;
+  border: 6px solid #222;
+  border-left-color: transparent !important;
+  border-bottom-color: transparent !important;
+  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.6));
+}
+
+.tableRight img {
+  display: inline-block;
+  max-height: 2000px;
+}
+
+/* Date */
+.tableRight > div:first-child {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 24px;
+  font-size: 12px;
+  padding: 0 8px;
+  z-index: 10;
+  left: 0 !important;
+}
+
+.tableRight > div:first-child:before {
+  display: none;
+}
+
+#userWall .date {
+  font-weight: normal;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none;
+  float: none;
+  background: none !important;
+  box-shadow: none;
+  width: auto;
+  min-width: 0;
+  display: block;
+}
+
+/* Delete button */
+.tableRight button {
+  position: absolute;
+  bottom: -12px;
+  left: 0 !important;
+  z-index: 15;
+  width: 100px;
+  margin-right: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: none;
+  padding: 0;
+  height: 24px;
+}
+
+#userWall tr:hover button {
+  display: block;
+}
+
+/* Comments counter */
+#userWall + div {
+  font-size: 100% !important;
+  margin-bottom: 24px;
+  background: none;
+}
+
+/* Change comment background on hover */
+#userWall tr:hover .tableRight > div > * {
+  background: #333;
+}
+
+#userWall tr:hover .tableRight > div:before {
+  border-color: #333;
+}
+
+@media screen and (min-width: 360px) {
+  #userWall .tableRight {
+    padding-right: 0;
+  }
+
+  .tableRight > div table {
+    overflow-wrap: normal;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* Make avatars larger for wider screens */
+  .tableLeft {
+    width: 112px !important;
+  }
+
+  .tableLeft > a > div {
+    left: 128px;
+  }
+
+  .tableLeft img {
+    width: 112px;
+  }
+
+  #userWall .tableRight {
+    margin-left: 128px;
+  }
+}
+/* end _comments.scss */
+/* _blogs.scss */
+.blogs div, .blog div {
+  margin: 0;
+}
+
+.box.blog {
+  padding: 24px 16px;
+}
+
+/* end _blogs.scss */
+/* _header.scss */
+div#header,
+div#hSub {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 8px;
+  border: 0;
+  width: 100%;
+  height: auto;
+  font-size: 0;
+  top: 0;
+  left: 0;
+  font-family: inherit;
+  -webkit-text-fill-color: initial;
+}
+
+div#header {
+  height: 98px;
+  background: #0e1417;
+  color: #f8f8f2;
+  overflow: visible;
+}
+
+.logo span {
+  display: none;
+}
+
+#header .logo {
+  display: inline-block;
+  margin: 11px 0 11px 8px;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #FFF;
+  background-position: 0 -64px;
+}
+
+#hUp {
+  display: inline-block;
+  margin-top: 14px !important;
+  margin-right: 0 !important;
+  position: static !important;
+}
+
+#header #hUp a {
+  display: inline-block;
+  font-size: 0;
+  margin: 0 8px 0 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  animation: none;
+  text-decoration: none;
+  position: relative;
+  vertical-align: top;
+}
+#header #hUp a:after {
+  content: "";
+  display: none;
+  background: #444;
+  color: #EEE;
+  white-space: nowrap;
+  font-size: 12px;
+  width: auto;
+  line-height: 18px;
+  position: absolute;
+  top: 32px;
+  right: 0;
+  margin-top: 56px;
+  padding: 6px 10px;
+}
+#header #hUp a:hover, #header #hUp a:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#header #hUp a:hover:after, #header #hUp a:focus:after {
+  display: block;
+}
+
+#header #hUp a[href*="review."] {
+  background-position: 0px 0;
+  display: none;
+}
+
+#header #hUp a[href*="review."]:after {
+  content: "New Comments!";
+  color: #EE82EE;
+}
+
+#header #hUp a[href*="requests."] {
+  background-position: -32px 0;
+  display: none;
+}
+
+#header #hUp a[href*="requests."]:after {
+  content: "New Fwiend Requests!";
+  color: #FFC107;
+}
+
+#header #hUp a[href*="all."] {
+  background-position: -64px 0;
+  display: none;
+}
+
+#header #hUp a[href*="all."]:after {
+  content: "New Fwiends!";
+  color: #8BC34A;
+}
+
+#header #hUp a[href*="mailbox."] {
+  background-position: -96px 0;
+}
+
+#header #hUp a[href*="mailbox."]:after {
+  content: "MailBox";
+}
+
+#header #hUp a[href*="logout."] {
+  background-position: -128px 0;
+}
+
+#header #hUp a[href*="logout."]:after {
+  content: "Logout";
+}
+
+#header #hUp a[href*="signup."] {
+  background-position: -160px 0;
+}
+
+#header #hUp a[href*="signup."]:after {
+  content: "SignUp";
+}
+
+#header #hUp a[href*="login."] {
+  background-position: -192px 0;
+}
+
+#header #hUp a[href*="login."]:after {
+  content: "Login";
+}
+
+/* Hide standart mailbox icon, when "new message" icon appears */
+#header #hUp a[href*="mailbox."] ~ a[href*="mailbox."] {
+  display: none;
+}
+
+/* Replace blinking "new message" text to red dot in the corner of mailbox icon */
+#hUp a[href*="mailbox."] .blinkRed {
+  background: #F00;
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 3px;
+  right: 3px;
+  border-radius: 50%;
+}
+
+div#hSub {
+  background: none;
+  color: #f8f8f2;
+  top: 60px;
+  height: 38px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  z-index: 350;
+}
+
+#hSub::-webkit-scrollbar {
+  height: 2px;
+  background: transparent;
+}
+
+#hSub::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#hSub a {
+  display: inline-block;
+  font-family: Consolas, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", "Courier New", monospace;
+  color: inherit;
+  font-size: 16px;
+  line-height: 38px;
+  margin: 0 8px 0 0;
+  padding: 0 8px;
+}
+
+.sep {
+  display: none;
+  color: inherit;
+}
+
+#container {
+  padding-top: 144px;
+}
+
+@media screen and (min-width: 240px) {
+  #header #hUp a:first-child {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 360px) {
+  #header #hUp a[href] {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 960px) {
+  div#header {
+    height: 60px;
+  }
+
+  #header #hUp a:after {
+    margin-top: 4px;
+  }
+
+  #container {
+    padding-top: 96px;
+  }
+
+  div#hSub {
+    width: auto;
+    top: 11px;
+    left: 62px;
+    background: none;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .sep {
+    display: inline;
+  }
+}
+/* Fixed header takes too much space on screen with small height */
+@media screen and (max-height: 720px) {
+  div#header,
+div#hSub {
+    position: absolute;
+  }
+}
+/* end _header.scss */
+/* _page.scss */
+#container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.topLeft,
+.topRight,
+.blogCard,
+.blogPost {
+  margin: 0;
+  margin-top: 0 !important;
+  padding: 0;
+  width: 100%;
+  float: none;
+}
+
+.blogTitle {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.boxHead, .rightHead, h4 {
+  background: none;
+  color: inherit;
+}
+
+.short,
+.boxInfo,
+.url,
+.player,
+.blogCard .boxInfo + div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+.short,
+.boxInfo,
+.url,
+.player,
+.extended,
+.blurbs,
+.blurbs .blogs,
+.fwiends,
+.blogCard #country + div,
+.blogCard .boxInfo + div,
+.box.blog {
+  margin-bottom: 24px;
+}
+
+/* Default box background */
+.short,
+.boxInfo,
+.url,
+.player,
+.extended,
+.blogCard > div,
+.blurbs .blogs,
+.blurbs h4,
+.blurbs h4 + div,
+.rightHead,
+.fwiends > div,
+.box.blog {
+  background: #0e1417;
+}
+
+/* Page title - username and blog title */
+.topLeft > div:first-child {
+  padding: 0 16px;
+}
+
+#name {
+  overflow: hidden;
+}
+
+.blogTitle {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.blogTitle div {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.blogTitle button {
+  float: none !important;
+  text-align: center;
+}
+
+/* Section headings */
+/* h4 */
+.blurbs .blogs div:first-child,
+.rightHead,
+.topRight .boxHead {
+  font-size: 21.28px;
+  margin: 0;
+  padding: 12px 16px;
+}
+
+.blurbs > h4 {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .topLeft, .blogCard {
+    width: 272px;
+    float: left;
+  }
+
+  .topRight, .blogPost {
+    width: auto;
+    float: none;
+    margin-left: 288px;
+  }
+
+  /* Page title - username and blog title */
+  .topLeft > div:first-child,
+.blogTitle {
+    padding: 0 16px;
+    text-align: left;
+  }
+
+  .blogTitle h2 {
+    max-width: 50%;
+    float: left;
+  }
+
+  .blogTitle div {
+    padding-top: 6px;
+    margin-bottom: 0;
+    width: auto !important;
+    float: right;
+  }
+}
+/* end _page.scss */
+/* _footer.scss */
+#footer {
+  display: block;
+  background: #0e1417;
+  padding: 12px 16px;
+  clear: both;
+  font-size: 100%;
+}
+
+#footer p {
+  margin: 0;
+}
+
+/* end _footer.scss */
+/* _background.scss */
+/* #userWall {
+  backdrop-filter: blur(10px);
+} */
+.blogTitle,
+.blogCard,
+.topLeft > div,
+.topLeft > img,
+.topLeft > table,
+.topRight > div,
+#footer {
+  position: relative;
+  z-index: 100;
+}
+
+body:before,
+#container:before,
+#container:after {
+  content: "";
+  display: block !important;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+body:before {
+  top: 0;
+  background: #19142F url("https://i.imgur.com/KefzdcT.png/bg.png") 50% 100%/cover no-repeat;
+}
+
+/* City */
+#container:before {
+  height: 400px;
+  background: url("https://i.imgur.com/ds9uesE.png/sprite.png") 0 0 repeat-x, url("https://i.imgur.com/ds9uesE.png/sprite.png") 0 -450px repeat-x;
+}
+
+/* Neon road */
+#container:after {
+  bottom: 0;
+  left: -50%;
+  width: 200%;
+  height: 100px;
+  background-color: rgba(75, 19, 84, 0.1);
+  background-image: linear-gradient(to left, transparent 25%, #00d7ff 35%, #97E9EB 38%, #00e3ff 40%, transparent 52%), linear-gradient(to top, transparent 0%, #00e3ff 12%, #97E9EB 15%, #00e3ff 18%, transparent 22%);
+  background-repeat: repeat;
+  background-size: 120px 100%, 2000px 20px;
+  transform: perspective(75px) rotateX(-140deg);
+}
+
+/* Some bug with transform and z-index in Safari */
+@supports (-webkit-hyphens: none) {
+  #container:after {
+    transform: none;
+    height: 75px;
+  }
+}
+/* Car */
+#container .url {
+  display: block;
+  position: fixed;
+  bottom: -5px;
+  left: 0;
+  width: 360px;
+  height: 150px;
+  background: transparent url("https://i.imgur.com/ds9uesE.png/sprite.png") 0px -850px no-repeat;
+  z-index: 20;
+  margin: 0;
+}
+
+.url div {
+  display: none;
+}
+
+/* Wheels */
+.url:before, .url:after {
+  content: "";
+  position: absolute;
+  background: transparent url("https://i.imgur.com/ds9uesE.png/sprite.png") 0px -1211px no-repeat;
+  border-radius: 50%;
+  filter: blur(1px) opacity(0.8) sepia(1) hue-rotate(160deg) drop-shadow(0 0 10px rgba(255, 0, 0, 0.9));
+}
+.url:before {
+  background-position: -43px -1211px;
+  bottom: 50px;
+  left: 63px;
+  width: 38px;
+  height: 38px;
+}
+.url:after {
+  background-position: -87px -1211px;
+  bottom: 47px;
+  left: 282px;
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (min-width: 400px) {
+  #container .url {
+    left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #userWall {
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #userWall > tbody > tr:last-child {
+    margin-bottom: 0;
+  }
+
+  #userWall + div {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 12px 16px;
+    height: auto;
+  }
+
+  #container:before {
+    animation: city 15s steps(375) infinite;
+  }
+
+  #container:after {
+    animation: road 5s steps(125) infinite;
+  }
+
+  .blogBody #container:before, .blogBody #container:after {
+    animation: none;
+  }
+
+  .url {
+    animation: car 28s steps(175) infinite;
+  }
+
+  .url:before,
+.url:after {
+    animation: wheels 1s steps(25) infinite;
+  }
+}
+@keyframes city {
+  100% {
+    background-position-x: -4250px, -3400px;
+  }
+}
+@keyframes road {
+  100% {
+    background-position-x: -2400px;
+  }
+}
+@keyframes car {
+  from, to {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(0px);
+  }
+  35% {
+    transform: translateX(140px);
+  }
+  50% {
+    transform: translateX(140px);
+  }
+}
+@keyframes wheels {
+  100% {
+    transform: rotate(-1080deg);
+  }
+}
+/* end _background.scss */
+/* _retrowave.scss */
+body::-webkit-scrollbar {
+  width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0e1417;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:window-inactive:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+body::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(212, 82, 234, 0.4);
+}
+
+button, input[type=submit] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+b {
+  font-weight: bolder;
+}
+
+button, input[type=submit] {
+  text-transform: uppercase;
+  background-color: #d452ea;
+  color: #f8f8f2;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.5s ease;
+}
+button:hover, input[type=submit]:hover {
+  box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+#container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#header .logo {
+  border-radius: 4px;
+}
+
+#header #hUp a {
+  background-color: transparent;
+  border-radius: 50%;
+  transition: background-color 0.2s linear;
+}
+#header #hUp a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#header #hUp a:after {
+  background: #444;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+#hSub a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+#hSub a:hover, #hSub a:focus {
+  opacity: 1;
+}
+
+.topLeft > div:first-child {
+  background: #0e1417;
+}
+
+.topLeft #online {
+  top: -60px;
+  left: auto;
+  right: 0;
+}
+
+.short, .blogCard #country + div {
+  margin-bottom: 0;
+}
+
+.boxInfo a {
+  background: transparent;
+  transition: background-color 0.5s ease;
+}
+.boxInfo a:hover, .boxInfo a:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.url {
+  display: none;
+}
+
+.blurbs > h4 {
+  font-weight: bold;
+}
+
+.blurbs .blogs > div:first-child,
+.rightHead,
+.fwiends .rightHead,
+.comments .boxHead {
+  font-size: 24px;
+  color: #FFF;
+  text-shadow: 2px 2px 0px #26082b, 3px 3px 0px #da00ff;
+  padding: 24px 16px;
+}
+
+.comments .boxHead {
+  padding-top: 0;
+  background: none;
+}
+
+#viewFriends {
+  top: 60px;
+}
+
+#form {
+  margin-bottom: 0;
+}
+
+#commentInput {
+  background: #191E21;
+  color: #EEE;
+  min-height: 124px;
+  border-bottom: 2px solid #d452ea;
+}
+#commentInput:focus {
+  border-bottom-width: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .short .avatar, .blogCard .avatar {
+    height: 288px;
+  }
+}
